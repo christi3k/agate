@@ -51,7 +51,10 @@ setup(
         'agate.tableset'
     ],
     package_data = {
-        'agate': ['py.typed']
+        'agate': ['py.typed'],
+        'agate.aggregations': ['py.typed'],
+        'agate.data_types': ['py.typed'],
+        'agate.table': ['py.typed']
     },
     install_requires=install_requires
 )
