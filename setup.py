@@ -50,5 +50,8 @@ setup(
         'agate.table',
         'agate.tableset'
     ],
+    package_data = {
+        'agate': ['py.typed']
+    },
     install_requires=install_requires
 )
