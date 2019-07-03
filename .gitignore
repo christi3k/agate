@@ -12,3 +12,6 @@ build
 .ipynb_checkpoints
 .idea
 .venv
+.mypy_cache/
+mypy.ini
+out/
